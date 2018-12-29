@@ -48,6 +48,15 @@ module.exports = {
         "comma-dangle": "off",
         "import/no-extraneous-dependencies": "off",
         "max-len": "off",
-        "react/forbid-prop-types": "off"
+        "react/forbid-prop-types": "off",
+        "array-bracket-spacing": [
+            "error",
+            "always"
+        ],
+        "computed-property-spacing": [
+            "error",
+            "always"
+        ],
+        "import/prefer-default-export": "off"
     }
 }
